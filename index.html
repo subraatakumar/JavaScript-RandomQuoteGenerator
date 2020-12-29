@@ -1,0 +1,33 @@
+<html>
+<head>
+  <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<style>
+	#quote{
+		font-family: 'Redressed', cursive;	
+		font-size:200%;
+		border:50px inset #0049bf;
+		background-color:#779fe0;
+		padding:80px;
+		width:50%;
+		margin:auto;
+		top:20%;
+  position: relative;		
+animation: movingTopToBottom 5s linear 1;		
+	}
+@keyframes movingTopToBottom {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 20%;
+  }
+}	
+</style>
+</head>
+<body>
+<div id="quote"></div>
+<script src="main.js"></script>
+</body>
+</html>
